@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    position: relative;
+    padding: 90px 10vw;
+    padding-bottom: 20px;
+    background: #ffff;
+}
+
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content {
+    height: 160px;
+}
+
+.logo{
+    border-radius: 20px;
+}
+
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category > li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.category-title{
+    color: black;
+    font-size: 25px;
+}
+
+.category .footer-link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link{
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.footer-link:hover{
+    color: blue;
+}
+
+.footer-title, .info{
+    color: black;
+    margin: 20px 0;
+    text-size-adjust: 20px;
+    text-align: justify;
+}
+
+.footer-title{
+    margin-top: 80px;
+    color: black;
+    font-size: 20px;
+}
+
+.footer-social-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link-info{
+    display: block;
+}
+
+.social-link{
+    text-decoration: none;
+}
+
+.social-link > img{
+    margin-left: 20px;
+    width: 30px;
+}
+
+.facebook:hover{
+    background-image: url("/img/facebook\ \(2\).png");
+    background-size: 30px;
+}
+
+.footer-credit{
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: black;
+    background: rgba(0, 0, 0, 0.2);
+}
