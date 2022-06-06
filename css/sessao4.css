@@ -1,0 +1,39 @@
+/* Estilizações das sessões 4 - Quem somos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sessao-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+
+.texto-sessao-4 {
+    text-align: center;
+    font-size: 15px;
+    width: 90vh;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding: 15px;
+}
+
+span {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.descricao-quem-somos {
+    color: #ff914d;
+    font-size: 20px;
+}
+
+iframe {
+    border-radius: 50px;
+    padding: 20px;
+}
