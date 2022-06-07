@@ -1,0 +1,53 @@
+
+header{
+    display: flex;
+    background-color: #f8f3f0;
+    height: 60px; 
+    padding: 0 20px;  
+}
+
+.icone{
+    height: 40px;
+    width: 40px;
+    margin-right: 600px;
+    border-radius: 10px;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
+.atalhos{
+    margin-left: 20px;
+    color: black;
+    background-image:
+    linear-gradient(
+        transparent 0%,
+        transparent 90%,
+        orange 90%,
+        orange 100%
+    );
+
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.atalhos:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+#botao{
+    border-radius: 20px;
+    padding: 5px 40px 5px 40px;
+
+}
+
