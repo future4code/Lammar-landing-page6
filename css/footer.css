@@ -1,8 +1,11 @@
 footer{
-    position: relative;
-    padding: 90px 10vw;
-    padding-bottom: 20px;
+    display: grid;
     background: #ffff;
+    border-top: 1px solid rgb(222, 223, 228);
+}
+
+.footer-container{
+    margin: 20px;
 }
 
 .footer-content{
@@ -23,6 +26,7 @@ footer{
     width: 45%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .category > li {
@@ -58,7 +62,7 @@ footer{
 
 .footer-title{
     margin-top: 80px;
-    color: black;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -67,6 +71,9 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.redes-sociais{
+    display: flex;
+}
 
 .social-link-info{
     display: block;
@@ -74,23 +81,19 @@ footer{
 
 .social-link{
     text-decoration: none;
+    display: flex;
 }
 
-.social-link > img{
+.social-link > div > img{
     margin-left: 20px;
     width: 30px;
-}
-
-.facebook:hover{
-    background-image: url("/img/facebook\ \(2\).png");
-    background-size: 30px;
 }
 
 .footer-credit{
     width: 100%;
     padding: 10px;
     left: 0;
-    bottom: 0;
+    margin-bottom: 0;
     text-align: center;
     color: black;
     background: rgba(0, 0, 0, 0.2);
