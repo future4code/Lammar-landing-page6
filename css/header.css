@@ -1,7 +1,6 @@
-
 header{
     display: flex;
-    background-color: #f8f3f0;
+    background-color: var(--cor2);
     height: 60px; 
     padding: 0 20px;  
 }
@@ -13,19 +12,17 @@ header{
     border-radius: 10px;
 }
 
-
 .cabecalho{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-
 }
 
 
 .atalhos{
     margin-left: 20px;
-    color: black;
+    color: var(--cor1);
     background-image:
     linear-gradient(
         transparent 0%,
@@ -48,9 +45,13 @@ header{
 #botao{
     border-radius: 20px;
     padding: 5px 40px 5px 40px;
-
 }
 
 .botao2{
+    cursor: pointer;
+}
+
+.atalhos-btn{
+    margin-left: 10px;
     cursor: pointer;
 }
