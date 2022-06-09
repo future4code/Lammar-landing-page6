@@ -5,35 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F4Bank</title>
-    <link rel="stylesheet" type="text/css" href="style-sessao3.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/home.css">
 
-    <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <script src="dark-mode.js"></script>
 
-
+    <title>F4Bank</title>
 </head>
-
 <body>
+    <div class="main">
     <header>
-
         <div class="cabecalho">
             <img class="icone" src="./img/f4bank.png" alt="icone do banco">
+            <div class="dark">
+                <button onclick="darkMode()" class="btn-dark">
+                <span>DarkMode</span>
+            </button>
+            </div>
             <b> <a class="atalhos" href="#">QUEM SOMOS</a>
                 <a class="atalhos" href="#">SEGUROS</a>
                 <a class="atalhos" href="#">INVESTIMENTOS</a>
                 <a class="atalhos" href="#">CONTATO</a> </b>
-            <button class="atalhos" id="botao">LOGIN</button>
-
+            <button class="atalhos-btn" id="botao">LOGIN</button>
         </div>
-
     </header>
-    <main>
-        <section class="sessao-1">
 
+    <main>
+    
+        <section class="sessao-1">
             <img src="./img/imagemlaranja.jpg" alt="pessoa com roupa laranja">
             <div class="abrirConta">
                 <h2><b>F4BANK, CONTA 100% DIGITAL E<br>
@@ -41,9 +42,8 @@
                 <br>
                 <a href="/login.html"><button class="botao2">ABRA SUA CONTA</button></a>
             </div>
-
-
         </section>
+
         <section class="sessao-2">
 
         </section>
@@ -97,6 +97,7 @@
                 width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+    
     </main>
 
     <footer>
@@ -161,12 +162,12 @@
                             <img src="/img/twitter (1).png" alt="twitter">
                         </div>
                     </a>
-
                 </div>
             </div>
         </div>
         <p class="footer-credit">F4bank, Simplificando sua Vida!</p>
     </footer>
+</div>
 </body>
 
 </html>

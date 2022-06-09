@@ -8,8 +8,8 @@
 }
 
 .sessao-4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    color: var(--cor1);
     margin-top: 30px;
 }
 
