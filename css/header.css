@@ -53,4 +53,5 @@ header{
 
 .atalhos-btn{
     margin-left: 10px;
+    cursor: pointer;
 }
