@@ -1,0 +1,25 @@
+
+.sessao-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+
+}
+
+
+
+
+.vantagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemCartoes{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 450px;   
+    margin-top: 30px;
+    margin-left: 40px;
+}

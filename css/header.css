@@ -1,13 +1,13 @@
 header{
     display: flex;
     background-color: var(--cor2);
-    height: 60px; 
+    height: 70px; 
     padding: 0 20px;  
 }
 
 .icone{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     margin-right: 600px;
     border-radius: 10px;
 }
@@ -21,7 +21,7 @@ header{
 
 
 .atalhos{
-    margin-left: 20px;
+    margin-left: 5px;
     color: var(--cor1);
     background-image:
     linear-gradient(

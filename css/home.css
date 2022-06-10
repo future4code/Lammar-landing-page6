@@ -1,10 +1,12 @@
 @import 'header.css';
 @import 'sessao1.css';
 @import 'sessao2.css';
+@import 'investimento.css';
 @import 'sessao3.css';
 @import 'sessao4.css';
 @import 'footer.css';
 @import 'btn-dark.css';
+
 
 :root{
     --cor1: #383737;

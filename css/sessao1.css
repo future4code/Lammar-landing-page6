@@ -4,13 +4,16 @@
   grid-template-rows: 1fr;
 }
 
+
 .abrirConta{
     display: flex;
     background-color: #f58d4d;
+    background-image: linear-gradient(to right, #f76539, #F1EA89 );
     flex-direction: column;
     justify-content: center;
     align-items: center ;
 }
+
 
 .botao2 {
   border-radius: 20px;
