@@ -28,23 +28,18 @@ header{
         transparent 0%,
         transparent 90%,
         orange 90%,
-        orange 100%
-    );
-
+        orange 100%);
     background-repeat: no-repeat;
     background-size: 0% 100%;
     background-position-x: right;
     transition: background-size 300ms;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .atalhos:hover{
     background-size: 100% 100%;
     background-position-x: left;
-}
-
-#botao{
-    border-radius: 20px;
-    padding: 5px 40px 5px 40px;
 }
 
 .botao2{
@@ -54,4 +49,8 @@ header{
 .atalhos-btn{
     margin-left: 10px;
     cursor: pointer;
+    border-radius: 20px;
+    padding: 5px 40px 5px 40px;
+    text-transform: uppercase;
+    background-color: #fff;
 }

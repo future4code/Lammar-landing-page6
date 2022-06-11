@@ -8,8 +8,7 @@
 
 .btn-dark{
     padding: 5px;
-    border: 3px var(--cor1);
-    border-style: solid;
+    border: 3px solid var(--cor1);
     border-radius: 50px;
     position: relative;
     cursor: pointer;

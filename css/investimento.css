@@ -1,25 +1,17 @@
 
-#investimento{
+.invest{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    
-    
-
+    color: var(--cor1);
 }
-
-
 
 .exemplosInvestimento{
     display: flex;
     margin-top: 40px;
     justify-content: space-around;
-   
-    
-   
-
 }
 
 .blocosInvest{
@@ -32,20 +24,21 @@
     box-shadow: 2px 2px 5px darkgray;
     border-radius: 25px;
     width: 230px;
-    height: 200px;
     margin-right: 50px;
-
-
 }
 
 .titulo{
     margin-top: 20px;
     margin-left: 20px;
-
 }
 
 .paragrafo{
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+#investimento{
+    margin-bottom: 40px;
+
 }

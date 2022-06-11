@@ -10,7 +10,7 @@
 
 :root{
     --cor1: #383737;
-    --cor2:  #ffffff;
+    --cor2: #ffffff;
 }
 
 :root .dark-mode{
@@ -18,7 +18,7 @@
    --cor2: #383737;
 }
 
-.main{
+.container-principal{
     background-color: var(--cor2);
 }
 
