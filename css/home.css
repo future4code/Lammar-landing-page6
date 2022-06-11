@@ -5,12 +5,10 @@
 @import 'sessao3.css';
 @import 'sessao4.css';
 @import 'footer.css';
-@import 'btn-dark.css';
-
 
 :root{
     --cor1: #383737;
-    --cor2:  #ffffff;
+    --cor2: #ffffff;
 }
 
 :root .dark-mode{
@@ -18,7 +16,7 @@
    --cor2: #383737;
 }
 
-.main{
+.container-principal{
     background-color: var(--cor2);
 }
 

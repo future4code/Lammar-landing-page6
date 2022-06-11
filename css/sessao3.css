@@ -1,6 +1,5 @@
 /* Estilizações das sessões 3 - Segurança do Banco*/
 
-
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.sessao-3 {
+#sessao-3 {
     display: flex;
     color: var(--cor1);
     justify-content: center;

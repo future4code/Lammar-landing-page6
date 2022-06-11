@@ -1,4 +1,18 @@
+let darkOn = false
+
 function darkMode() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
+    document.body.classList.toggle("dark-mode");
+
+    if (darkOn === false){
+        let alterarNome = document.getElementsByClassName("btn-dark")
+        alterarNome[0].innerHTML = "Ativar Modo Claro"
+        darkOn = true
+
+    } else{
+        let alterarNome = document.getElementsByClassName("btn-dark")
+        alterarNome[0].innerHTML = "Ativar Modo Escuro"
+        darkOn = false
+    }
+
 }
+

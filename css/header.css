@@ -19,7 +19,6 @@ header{
     justify-content: flex-end;
 }
 
-
 .atalhos{
     margin-left: 5px;
     color: var(--cor1);
@@ -28,23 +27,18 @@ header{
         transparent 0%,
         transparent 90%,
         orange 90%,
-        orange 100%
-    );
-
+        orange 100%);
     background-repeat: no-repeat;
     background-size: 0% 100%;
     background-position-x: right;
     transition: background-size 300ms;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .atalhos:hover{
     background-size: 100% 100%;
     background-position-x: left;
-}
-
-#botao{
-    border-radius: 20px;
-    padding: 5px 40px 5px 40px;
 }
 
 .botao2{
@@ -54,4 +48,26 @@ header{
 .atalhos-btn{
     margin-left: 10px;
     cursor: pointer;
+    border-radius: 20px;
+    padding: 5px 40px 5px 40px;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.btn-dark{
+    padding: 5px;
+    border: 3px solid;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    color: var(--cor1);
+    background-color: var(--cor2);
+    font-weight: bold;
 }
