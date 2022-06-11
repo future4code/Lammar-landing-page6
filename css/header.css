@@ -19,7 +19,6 @@ header{
     justify-content: flex-end;
 }
 
-
 .atalhos{
     margin-left: 5px;
     color: var(--cor1);
@@ -53,4 +52,22 @@ header{
     padding: 5px 40px 5px 40px;
     text-transform: uppercase;
     background-color: #fff;
+}
+
+.dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.btn-dark{
+    padding: 5px;
+    border: 3px solid var(--cor1);
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    color: var(--cor1);
+    background-color: var(--cor2);
+    font-weight: bold;
 }
