@@ -1,20 +1,37 @@
-#sessao-2{
+#sessao-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 600px;
 }
 
-.vantagens{
+.vantagens {
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--cor1);
 }
 
-.imagemCartoes{
+.imagemCartoes {
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     margin-top: 30px;
     margin-left: 40px;
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    #sessao-2 {
+        display: block;
+    }
+
+    .vantagens {
+        font-size: 25px;
+        margin-left: 300px;
+    }
+
+    .imagemCartoes {
+        display: block;
+        margin-left: 115px;
+    }
+
 }

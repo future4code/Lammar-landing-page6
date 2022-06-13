@@ -6,17 +6,16 @@
 @import 'sessao4.css';
 @import 'footer.css';
 
-:root{
+:root {
     --cor1: #383737;
     --cor2: #ffffff;
 }
 
-:root .dark-mode{
-   --cor1: #f7f7f7;
-   --cor2: #383737;
+:root .dark-mode {
+    --cor1: #f7f7f7;
+    --cor2: #383737;
 }
 
-.container-principal{
+.container-principal {
     background-color: var(--cor2);
 }
-

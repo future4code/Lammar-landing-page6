@@ -1,6 +1,5 @@
-
-.invest{
-    display:flex;
+.invest {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -8,13 +7,13 @@
     color: var(--cor1);
 }
 
-.exemplosInvestimento{
+.exemplosInvestimento {
     display: flex;
     margin-top: 40px;
     justify-content: space-around;
 }
 
-.blocosInvest{
+.blocosInvest {
     display: flex;
     flex-direction: column;
     border: 1px solid chocolate;
@@ -27,18 +26,39 @@
     margin-right: 50px;
 }
 
-.titulo{
+.titulo {
     margin-top: 20px;
     margin-left: 20px;
 }
 
-.paragrafo{
+.paragrafo {
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-#investimento{
+#investimento {
     margin-bottom: 40px;
 
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .invest {
+        margin-left: 100px;
+        margin-right: -230px;
+        font-size: 25px;
+        text-align: justify
+    }
+
+    .exemplosInvestimento {
+        display: block;
+        margin-left: 150px;
+    }
+
+    .blocosInvest {
+        padding: 50px;
+        font-size: 30px;
+        width: 300px;
+        margin: 20px;
+    }
 }
