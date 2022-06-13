@@ -1,11 +1,11 @@
-.sessao-1{
+.sessao-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
 
 
-.abrirConta{
+.abrirConta {
   display: flex;
   background-color: #f58d4d;
   background-image: linear-gradient(to right, #f76539, #F1EA89);
@@ -19,7 +19,27 @@
   padding: 5px 40px 5px 40px;
   font-weight: bold;
 }
+
 .botao2:hover {
   box-shadow: 0 0 40px 40px #f58d4d inset;
   color: #fff;
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .img-sessao1 {
+    width: 400px;
+    margin-top: 80px;
+
+  }
+
+  .abrirConta {
+    width: 370px;
+    font-size: 15px;
+    margin-top: 80px;
+  }
+
+  .botao2 {
+    padding: 5px 25px 5px 25px;
+  }
+
 }

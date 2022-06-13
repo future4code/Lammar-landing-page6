@@ -48,3 +48,18 @@ strong:hover {
     border-radius: 10px;
 }
 
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    #sessao-3 {
+        display: block;
+    }
+
+    .img-sessao-3 {
+        margin-left: 230px;
+        width: 1000px;
+        height: 200px;
+    }
+
+    .texto-sessao-3 {
+        font-size: 30px;
+    }
+}
