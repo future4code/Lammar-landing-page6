@@ -8,15 +8,22 @@ header {
 .icone {
     height: 50px;
     width: 50px;
-    margin-right: 600px;
+    margin-right: 550px;
     border-radius: 10px;
 }
 
 .cabecalho {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .atalhos {
@@ -45,10 +52,10 @@ header {
 }
 
 .atalhos-btn {
-    margin-left: 10px;
+    margin-left: 2em;
     cursor: pointer;
     border-radius: 20px;
-    padding: 5px 40px 5px 40px;
+    padding: 5px 30px 5px 30px;
     text-transform: uppercase;
     background-color: #fff;
 }
@@ -57,35 +64,75 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 2rem;
+    flex-wrap: wrap;
+    width: 3vw;
+
 }
 
 .btn-dark {
+    margin-left: 1em;
+    margin-right: 10em;
     padding: 5px;
-    border: 3px solid;
-    border-radius: 50px;
+    border: 2px solid;
+    border-radius: 30px;
     position: relative;
     cursor: pointer;
     color: var(--cor1);
     background-color: var(--cor2);
     font-weight: bold;
+    font-size: 12px;
+}
+
+@media screen and (min-device-width: 990px) and (max-device-width: 1020px) {
+    .icone {
+        margin: 10px 60px 25px 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dark {
+        margin-left: 250px;
+    }
+
+}
+
+@media screen and (min-device-width: 667px) and (max-device-width: 989px) {
+    .icone {
+        margin: 10px 60px 25px 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .dark {
+        margin-left: 250px;
+    }
 }
 
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     .icone {
-        margin-right: 400px;
-        width: 80px;
-        height: 80px;
+        margin-right: 60px;
+        margin-left: -50px;
+        width: 70px;
+        height: 70px;
     }
 
     .cabecalho {
-        width: 770px;
+        width: 740px;
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
-    .btn-dark {
-        display: none;
+    .dark {
+        margin-left: 25px;
     }
-
 }

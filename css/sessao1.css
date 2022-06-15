@@ -1,7 +1,10 @@
 .sessao-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: row;
+}
+
+.sessao-1 img {
+  width: 50%;
 }
 
 
@@ -12,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 
 .botao2 {
@@ -26,16 +30,27 @@
 }
 
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  .img-sessao1 {
-    width: 400px;
-    margin-top: 80px;
+  .sessao-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
+  .img-sessao1 {
+    display: block;
+    width: 73vw;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: -80px;
   }
 
   .abrirConta {
-    width: 370px;
+    display: flex;
+    margin-left: 20px;
+    width: 47vw;
     font-size: 15px;
     margin-top: 80px;
+    padding: 5px;
   }
 
   .botao2 {

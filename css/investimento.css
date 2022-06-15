@@ -42,23 +42,57 @@
 
 }
 
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
-    .invest {
-        margin-left: 100px;
+@media screen and (min-device-width: 668px) and (max-device-width: 1140px) {
+    .invest h3 {
+        margin-left: -200px;
         margin-right: -230px;
         font-size: 25px;
-        text-align: justify
+    }
+
+    .invest p {
+        font-size: 20px;
+        margin-left: 5px;
+        text-align: center;
+        width: 50vw;
+    }
+
+    .exemplosInvestimento {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blocosInvest {
+        padding: 10px;
+        font-size: 20px;
+        width: 25vw;
+        height: 50vh;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .invest h3 {
+        margin-left: -200px;
+        margin-right: -230px;
+        font-size: 20px;
+    }
+
+    .invest p {
+        font-size: 18px;
+        margin-left: 5px;
+        text-align: center;
+        width: 50vw;
     }
 
     .exemplosInvestimento {
         display: block;
-        margin-left: 150px;
+        margin-left: 15vw;
     }
 
     .blocosInvest {
-        padding: 50px;
-        font-size: 30px;
-        width: 300px;
+        padding: 10px;
+        font-size: 20px;
+        width: 200px;
         margin: 20px;
     }
 }

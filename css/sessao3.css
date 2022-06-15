@@ -54,12 +54,14 @@ strong:hover {
     }
 
     .img-sessao-3 {
-        margin-left: 230px;
+        margin-left: 60px;
         width: 1000px;
         height: 200px;
     }
 
     .texto-sessao-3 {
-        font-size: 30px;
+        font-size: 20px;
+        text-align: center;
+        width: 40vh;
     }
 }

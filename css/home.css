@@ -19,3 +19,9 @@
 .container-principal {
     background-color: var(--cor2);
 }
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    body {
+        background-color: var(--cor2);
+    }
+}
