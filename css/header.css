@@ -73,19 +73,15 @@ header {
 
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     .icone {
-        margin-right: 400px;
-        width: 80px;
-        height: 80px;
+        margin-right: 60px;
+        margin-left: -50px;
+        width: 70px;
+        height: 70px;
     }
 
     .cabecalho {
-        width: 770px;
+        width: 740px;
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
-
-    .btn-dark {
-        display: none;
-    }
-
 }

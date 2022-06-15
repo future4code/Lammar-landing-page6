@@ -12,7 +12,7 @@
         href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAIcAAAAAAAAA/wAAAP8AAAAAAAAAtwAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAALEAAAAAAAAA/wAAAP8AAAAAAAAAhwAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/n8AAPgfAADwDwAA4kcAAOZnAADmZwAA/kcAAPwPAADwPwAA4n8AAOZnAADmZwAA4kcAAPAPAAD4HwAA/n8AAA=="
         rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="/css/home.css">
-    <script src="dark-mode.js"></script>
+    <script src="dark-mode.js" defer></script>
 
     <title>F4Bank</title>
 </head>
@@ -21,7 +21,8 @@
     <div class="container-principal">
         <header>
             <div class="cabecalho">
-                <img class="icone" src="./img/f4bank.png" alt="icone do banco">
+                <img class="icone" src="./img/f4bank.png"
+                    alt="logo do banco - F4Bank nas cores laranja, amarelo e branco">
                 <div class="dark">
                     <button class="btn-dark" onclick="darkMode()">Ativar Modo Escuro</button>
                 </div>
@@ -137,19 +138,18 @@
                     financeiras com condições especiais para estudantes, trabalhadores formais e informais, empresas e
                     entidades de classe.
                 </p>
-                <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                    id="gmap_canvas"
-                    src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Pais%20Lemes%20215+(Localiza%C3%A7%C3%A3o)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                <a href='http://maps-generator.com/pt'>Map Generator</a>
-                <script type='text/javascript'
-                    src='https://embedmaps.com/google-maps-authorization/script.js?id=223adaf09118ada810d086d38cd86743dc3db197'></script>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9962768688824!2d-46.6985022!3d-23.5685772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a7c7ace4c3%3A0x586759cab9b5c95a!2sR.%20Pais%20Leme%2C%20215%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005424-150!5e0!3m2!1spt-BR!2sbr!4v1655245989717!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
 
         <footer id="footer">
             <div class="footer-container">
                 <div class="footer-content">
-                    <img src="/img/f4bank.png" class="logo" alt="">
+                    <img src="/img/f4bank.png" class="logo"
+                        alt="logo do banco - F4Bank nas cores laranja, amarelo e branco">
                     <div class="footer-ul-container">
                         <ul class="category">
                             <li class="category-title">F4bank</li>
@@ -227,7 +227,8 @@
                 </div>
             </div>
             <p class="footer-credit">F4bank, Simplificando sua Vida!</p>
-        </footer>
+    </div><!-- container-principal -->
+    </footer>
     </div><!-- container-principal -->
 </body>
 

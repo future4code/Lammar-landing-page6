@@ -47,10 +47,13 @@ iframe {
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     #sessao-4 {
         display: block;
+        margin-left: 15px;
     }
 
     .texto-sessao-4 {
-        font-size: 30px;
+        font-size: 20px;
+        text-align: center;
+        width: 40vh;
     }
 
     .descricao-quem-somos {
@@ -58,8 +61,6 @@ iframe {
     }
 
     iframe {
-        width: 50%;
-        height: 50%;
-        margin-left: 225px;
+        display: none;
     }
 }

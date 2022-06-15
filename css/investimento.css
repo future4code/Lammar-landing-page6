@@ -43,22 +43,28 @@
 }
 
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
-    .invest {
-        margin-left: 100px;
+    .invest h3 {
+        margin-left: -200px;
         margin-right: -230px;
-        font-size: 25px;
-        text-align: justify
+        font-size: 20px;
+    }
+
+    .invest p {
+        font-size: 18px;
+        margin-left: 5px;
+        text-align: center;
+        width: 50vw;
     }
 
     .exemplosInvestimento {
         display: block;
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
     .blocosInvest {
-        padding: 50px;
-        font-size: 30px;
-        width: 300px;
+        padding: 10px;
+        font-size: 20px;
+        width: 200px;
         margin: 20px;
     }
 }

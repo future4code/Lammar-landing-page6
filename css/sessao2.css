@@ -22,16 +22,18 @@
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     #sessao-2 {
         display: block;
+        margin-top: 50px;
+        margin-left: 60px;
     }
 
     .vantagens {
-        font-size: 25px;
-        margin-left: 300px;
+        font-size: 15px;
+        width: 40vw;
+        margin-left: 50px;
     }
 
-    .imagemCartoes {
-        display: block;
-        margin-left: 115px;
+    .imagemCartoes img {
+        margin-left: -70px;
+        width: 73vw;
     }
-
 }
