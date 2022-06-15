@@ -1,7 +1,10 @@
 .sessao-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: row;
+}
+
+.sessao-1 img {
+  width: 50%;
 }
 
 
@@ -12,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 
 .botao2 {
@@ -43,7 +47,7 @@
   .abrirConta {
     display: flex;
     margin-left: 20px;
-    width: 70vw;
+    width: 47vw;
     font-size: 15px;
     margin-top: 80px;
     padding: 5px;

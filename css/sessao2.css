@@ -19,6 +19,41 @@
     margin-left: 40px;
 }
 
+@media screen and (min-device-width: 775px) and (max-device-width: 970px) {
+    #sessao-2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .vantagens {
+        margin: auto;
+    }
+
+    .imagemCartoes img {
+        margin-left: 10vw;
+    }
+}
+
+
+@media screen and (min-device-width: 668px) and (max-device-width: 774px) {
+    #sessao-2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .vantagens {
+        margin: auto;
+    }
+
+    .imagemCartoes img {
+        margin-left: 5vw;
+    }
+}
+
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     #sessao-2 {
         display: block;
