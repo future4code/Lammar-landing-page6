@@ -1,63 +1,67 @@
-header {
-    display: flex;
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior:smooth;  
+}
+
+body{
+    width: 100vw;
     background-color: var(--cor2);
-    height: 70px;
-    padding: 0 20px;
+    overflow-x: hidden;   
 }
 
-.icone {
-    height: 50px;
-    width: 50px;
-    margin-right: 550px;
-    border-radius: 10px;
+header{
+    font-size: 1.0rem;
+    position: fixed;
+    z-index: 9999;
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
+.cabecalho{
+    display:flex;
     align-items: center;
-    justify-content: flex-end;
+    width: 100vw;
+    height: 7vh;
+    padding: 1.5vh;
+    background-color: var(--cor2);
+    color:var(--cor2);
+    top:0;
+    position: fixed;
+    justify-content: space-between;  
+    animation: backgroundTransition 8s ease-in-out infinite; 
 }
 
-.menu {
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+}
+
+.logo-nome{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
 }
 
-.atalhos {
-    margin-left: 5px;
-    color: var(--cor1);
-    background-image:
-        linear-gradient(transparent 0%,
-            transparent 90%,
-            orange 90%,
-            orange 100%);
-    background-repeat: no-repeat;
-    background-size: 0% 100%;
-    background-position-x: right;
-    transition: background-size 300ms;
-    font-weight: bold;
-    text-transform: uppercase;
+.logo-nome img{
+   height: 9vh; 
+   border-radius: 10px;
 }
 
-.atalhos:hover {
-    background-size: 100% 100%;
-    background-position-x: left;
+#logo-mobile{
+    display: none;
 }
-
-.botao2 {
-    cursor: pointer;
+.logo-nome h2{
+    margin-left: 20px;
 }
-
-.atalhos-btn {
-    margin-left: 2em;
-    cursor: pointer;
-    border-radius: 20px;
-    padding: 5px 30px 5px 30px;
-    text-transform: uppercase;
-    background-color: #fff;
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dark {
@@ -66,7 +70,6 @@ header {
     align-items: center;
     flex-wrap: wrap;
     width: 3vw;
-
 }
 
 .btn-dark {
@@ -74,65 +77,39 @@ header {
     margin-right: 10em;
     padding: 5px;
     border: 2px solid;
-    border-radius: 30px;
+    border-radius: 40px;
     position: relative;
     cursor: pointer;
     color: var(--cor1);
     background-color: var(--cor2);
     font-weight: bold;
     font-size: 12px;
+    padding: 10px;
 }
 
-@media screen and (min-device-width: 990px) and (max-device-width: 1020px) {
-    .icone {
-        margin: 10px 60px 25px 10px;
-        width: 40px;
-        height: 40px;
-    }
-
-    .cabecalho {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .menu {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .dark {
-        margin-left: 250px;
-    }
-
+.nav-bar{
+    display: flex;
+}
+.nav{
+    display: flex;  
+    gap: 1rem;
+    margin-right: 3rem;
+    z-index: 1000;
+    color: var(--cor1);
+}
+.nav li{
+    display: block;
+    list-style: none;
+    box-sizing: border-box;
+    padding: .5rem;
+    color: var(--cor1);
 }
 
-@media screen and (min-device-width: 667px) and (max-device-width: 989px) {
-    .icone {
-        margin: 10px 60px 25px 10px;
-        width: 40px;
-        height: 40px;
-    }
-
-    .dark {
-        margin-left: 250px;
-    }
+.nav a{
+    text-decoration: none;
+    color: var(--cor1); 
 }
-
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
-    .icone {
-        margin-right: 60px;
-        margin-left: -50px;
-        width: 70px;
-        height: 70px;
-    }
-
-    .cabecalho {
-        width: 740px;
-        margin-top: 50px;
-        margin-left: 40px;
-    }
-
-    .dark {
-        margin-left: 25px;
-    }
+.nav li:hover{
+    background-color: #dee2e6;
+    border-radius: .3rem;
 }

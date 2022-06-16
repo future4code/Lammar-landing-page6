@@ -1,41 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-    <link
-        href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAIcAAAAAAAAA/wAAAP8AAAAAAAAAtwAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAALEAAAAAAAAA/wAAAP8AAAAAAAAAhwAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/n8AAPgfAADwDwAA4kcAAOZnAADmZwAA/kcAAPwPAADwPwAA4n8AAOZnAADmZwAA4kcAAPAPAAD4HwAA/n8AAA=="
-        rel="icon" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/home.css">
-    <script src="dark-mode.js" defer></script>
 
-    <title>F4Bank</title>
+    <title>Banco F4bank</title>
+    
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div class="container-principal">
         <header>
             <div class="cabecalho">
-                <img class="icone" src="./img/f4bank.png"
-                    alt="logo do banco - F4Bank nas cores laranja, amarelo e branco">
-                <div class="dark">
-                    <button class="btn-dark" onclick="darkMode()">Ativar Modo Escuro</button>
+
+                <div class="logo-nome">
+                    <a href="#" id="logo-mobile"><img src="/img/f4bank.png" alt="Logo 4Safe"></a>
+                    <a href="#" id="logo-navegador"><img src="/img/f4bank.png" alt="Logo 4Safe"></a>
                 </div>
-                <div class="menu">
-                    <a class="atalhos" href="#sessao-4">quem somos</a>
-                    <a class="atalhos" href="#investimento">investimentos</a>
-                    <a class="atalhos" href="#sessao-3">segurança</a>
-                    <a class="atalhos" href="#footer">contato</a>
-                    <button class="atalhos-btn">login</button>
+
+                <div class="links">
+
+                    <div class="dark">
+                        <button class="btn-dark" onclick="darkMode()">Ativar Modo Escuro</button>
+                    </div>
+
+                    <nav>
+                        <div class="nav-bar">
+                            <div class="menu-btn">
+                                <div class="btn-burger"></div>
+                            </div>
+                            <div>
+                                <ul class="nav">
+                                    <a class="atalhos" href="#investimentos">
+                                        <li>Investimentos</li>
+                                    </a>
+                                    <a class="atalhos" href="#sessao-3">
+                                        <li>Segurança</li>
+                                    </a>
+                                    <a class="atalhos" href="#sessao-4">
+                                        <li>Quem somos</li>
+                                    </a>
+                                    <a class="atalhos" href="#footer">
+                                        <li>Contato</li>
+                                    </a>
+                                    <a class="atalhos" href="#">
+                                        <li>Login</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
                 </div>
             </div>
         </header>
-
 
         <main>
             <section class="sessao-1">
@@ -65,7 +87,7 @@
                 </div>
             </section>
 
-            <section id="investimento">
+            <section id="investimentos">
                 <div class="invest">
                     <br>
                     <br>
@@ -229,7 +251,8 @@
             <p class="footer-credit">F4bank, Simplificando sua Vida!</p>
     </div><!-- container-principal -->
     </footer>
-    </div><!-- container-principal -->
+    </div>
+
 </body>
 
 </html>
