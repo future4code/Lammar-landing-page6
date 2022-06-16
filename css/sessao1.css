@@ -7,7 +7,6 @@
   width: 50%;
 }
 
-
 .abrirConta {
   display: flex;
   background-color: #f58d4d;
@@ -22,6 +21,7 @@
   border-radius: 20px;
   padding: 5px 40px 5px 40px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .botao2:hover {
