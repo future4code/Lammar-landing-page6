@@ -7,6 +7,8 @@ footer {
 
 .footer-container {
     margin: 20px;
+    margin-right: 40px;
+    font-size: 20px;
 }
 
 .footer-content {
@@ -70,6 +72,7 @@ footer {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
 }
 
 .redes-sociais {
@@ -118,14 +121,14 @@ footer {
     opacity: 1;
 }
 
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) {
     footer {
         display: block;
     }
 
     .footer-content img {
         width: 20vw;
-        height: 15vh;
+        height: 12vh;
     }
 
     .category>li {

@@ -20,27 +20,14 @@ header{
     display:flex;
     align-items: center;
     width: 100vw;
-    height: 7vh;
     padding: 1.5vh;
     background-color: var(--cor2);
     color:var(--cor2);
     top:0;
     position: fixed;
     justify-content: space-between;  
-    animation: backgroundTransition 8s ease-in-out infinite; 
 }
 
-@keyframes backgroundTransition {
-    0% {
-        background-position: 0% 80%;
-    }
-    50% {
-        background-position: 80% 100%;
-    }
-    100% {
-        background-position: 0% 90%;
-    }
-}
 
 .logo-nome{
     display: flex;
@@ -52,9 +39,6 @@ header{
    border-radius: 10px;
 }
 
-#logo-mobile{
-    display: none;
-}
 .logo-nome h2{
     margin-left: 20px;
 }

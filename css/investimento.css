@@ -5,6 +5,7 @@
     align-items: center;
     margin-top: 20px;
     color: var(--cor1);
+    font-size: 20px;
 }
 
 .exemplosInvestimento {
@@ -70,7 +71,7 @@
     }
 }
 
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) {
     .invest h3 {
         margin-left: -200px;
         margin-right: -230px;

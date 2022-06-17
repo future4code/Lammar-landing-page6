@@ -1,12 +1,3 @@
-@media screen and (max-width:1250px){
-    #logo-navegador{
-        display: none;
-    }
-    #logo-mobile{
-        display: block;
-    }
-}
-
 @media screen and (max-width:870px){
     .menu-btn{
         position: relative;
@@ -80,7 +71,7 @@
     }
 }
 
-@media screen and (max-width:580px){
+@media screen and (max-width:870px){
     .dark{
      margin-right: -.5rem; 
      transform: scale(.7);
