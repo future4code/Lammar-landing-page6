@@ -17,10 +17,11 @@
     text-align: center;
     font-size: 15px;
     width: 90vh;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-left: 5vh;
     margin-right: 5vh;
     padding: 15px;
+    font-size: 22px;
 }
 
 span {
@@ -44,7 +45,7 @@ iframe {
 }
 
 
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) {
     #sessao-4 {
         display: block;
         margin-left: 15px;
