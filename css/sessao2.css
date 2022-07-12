@@ -1,0 +1,74 @@
+#sessao-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+}
+
+.vantagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor1);
+    font-size: 20px;
+}
+
+.imagemCartoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px 0px 60px;
+}
+
+@media screen and (min-device-width: 775px) and (max-device-width: 970px) {
+    #sessao-2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .vantagens {
+        margin: auto;
+    }
+
+    .imagemCartoes img {
+        margin-left: 10vw;
+    }
+}
+
+
+@media screen and (min-device-width: 668px) and (max-device-width: 774px) {
+    #sessao-2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .vantagens {
+        margin: auto;
+    }
+
+    .imagemCartoes img {
+        margin-left: 5vw;
+    }
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) {
+    #sessao-2 {
+        display: block;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .vantagens {
+        font-size: 15px;
+        width: 40vw;
+        margin-left: 50px;
+    }
+
+    .imagemCartoes img {
+        margin-left: -70px;
+        width: 73vw;
+    }
+}

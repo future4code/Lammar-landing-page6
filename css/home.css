@@ -1,0 +1,29 @@
+@import 'header.css';
+@import 'sessao1.css';
+@import 'sessao2.css';
+@import 'investimento.css';
+@import 'sessao3.css';
+@import 'sessao4.css';
+@import 'footer.css';
+@import 'media.css';
+
+
+:root {
+    --cor1: #383737;
+    --cor2: #ffffff;
+}
+
+:root .dark-mode {
+    --cor1: #f7f7f7;
+    --cor2: #383737;
+}
+
+.container-principal {
+    background-color: var(--cor2);
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    body {
+        background-color: var(--cor2);
+    }
+}

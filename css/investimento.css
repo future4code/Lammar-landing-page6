@@ -1,0 +1,99 @@
+.invest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: var(--cor1);
+    font-size: 20px;
+}
+
+.exemplosInvestimento {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.blocosInvest {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid chocolate;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: rgb(224, 99, 53);
+    box-shadow: 2px 2px 5px darkgray;
+    border-radius: 25px;
+    width: 230px;
+    margin-right: 50px;
+}
+
+.titulo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.paragrafo {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#investimento {
+    margin-bottom: 40px;
+
+}
+
+@media screen and (min-device-width: 668px) and (max-device-width: 1140px) {
+    .invest h3 {
+        margin-left: -200px;
+        margin-right: -230px;
+        font-size: 25px;
+    }
+
+    .invest p {
+        font-size: 20px;
+        margin-left: 5px;
+        text-align: center;
+        width: 50vw;
+    }
+
+    .exemplosInvestimento {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blocosInvest {
+        padding: 10px;
+        font-size: 20px;
+        width: 25vw;
+        height: 50vh;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) {
+    .invest h3 {
+        margin-left: -200px;
+        margin-right: -230px;
+        font-size: 20px;
+    }
+
+    .invest p {
+        font-size: 18px;
+        margin-left: 5px;
+        text-align: center;
+        width: 50vw;
+    }
+
+    .exemplosInvestimento {
+        display: block;
+        margin-left: 15vw;
+    }
+
+    .blocosInvest {
+        padding: 10px;
+        font-size: 20px;
+        width: 200px;
+        margin: 20px;
+    }
+}

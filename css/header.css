@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior:smooth;  
+}
+
+body{
+    width: 100vw;
+    background-color: var(--cor2);
+    overflow-x: hidden;   
+}
+
+header{
+    font-size: 1.0rem;
+    position: fixed;
+    z-index: 9999;
+}
+
+.cabecalho{
+    display:flex;
+    align-items: center;
+    width: 100vw;
+    padding: 1.5vh;
+    background-color: var(--cor2);
+    color:var(--cor2);
+    top:0;
+    position: fixed;
+    justify-content: space-between;  
+}
+
+
+.logo-nome{
+    display: flex;
+    align-items: center;
+}
+
+.logo-nome img{
+   height: 9vh; 
+   border-radius: 10px;
+}
+
+.logo-nome h2{
+    margin-left: 20px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 3vw;
+}
+
+.btn-dark {
+    margin-left: 1em;
+    margin-right: 10em;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 40px;
+    position: relative;
+    cursor: pointer;
+    color: var(--cor1);
+    background-color: var(--cor2);
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.nav-bar{
+    display: flex;
+}
+.nav{
+    display: flex;  
+    gap: 1rem;
+    margin-right: 3rem;
+    z-index: 1000;
+    color: var(--cor1);
+}
+.nav li{
+    display: block;
+    list-style: none;
+    box-sizing: border-box;
+    padding: .5rem;
+    color: var(--cor1);
+}
+
+.nav a{
+    text-decoration: none;
+    color: var(--cor1); 
+}
+.nav li:hover{
+    background-color: #dee2e6;
+    border-radius: .3rem;
+}

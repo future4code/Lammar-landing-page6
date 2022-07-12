@@ -1,0 +1,60 @@
+.sessao-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.sessao-1 img {
+  width: 50%;
+}
+
+.abrirConta {
+  display: flex;
+  background-color: #f58d4d;
+  background-image: linear-gradient(to right, #f76539, #F1EA89);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.botao2 {
+  border-radius: 20px;
+  padding: 5px 40px 5px 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao2:hover {
+  box-shadow: 0 0 40px 40px #f58d4d inset;
+  color: #fff;
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) {
+  .sessao-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .img-sessao1 {
+    display: block;
+    width: 73vw;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: -80px;
+  }
+
+  .abrirConta {
+    display: flex;
+    margin-left: 20px;
+    width: 47vw;
+    font-size: 15px;
+    margin-top: 80px;
+    padding: 5px;
+  }
+
+  .botao2 {
+    padding: 5px 25px 5px 25px;
+  }
+
+}

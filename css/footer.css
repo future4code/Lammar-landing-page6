@@ -1,0 +1,165 @@
+footer {
+    margin-top: 60px;
+    display: grid;
+    background: var(--cor2);
+    border-top: 1px solid rgb(222, 223, 228);
+}
+
+.footer-container {
+    margin: 20px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content {
+    height: 160px;
+}
+
+.logo {
+    border-radius: 20px;
+}
+
+.footer-ul-container {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category>li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.category-title {
+    color: var(--cor1);
+    font-size: 25px;
+}
+
+.category .footer-link {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.footer-link {
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.footer-link:hover {
+    color: rgb(49, 15, 86);
+}
+
+.footer-title,
+.info {
+    color: var(--cor1);
+    margin: 20px 0;
+    text-size-adjust: 20px;
+    text-align: justify;
+}
+
+.footer-title {
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.footer-social-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.social-link-info {
+    display: block;
+    color: var(--cor1);
+}
+
+.social-link {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+
+}
+
+.social-link>div>img {
+    margin-left: 20px;
+    width: 30px;
+    position: relative;
+}
+
+.footer-credit {
+    width: 100%;
+    padding: 10px 0px;
+    left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: var(--cor1);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.facebook:hover {
+    opacity: 0;
+}
+
+#id2 {
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#id2:hover {
+    opacity: 1;
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) {
+    footer {
+        display: block;
+    }
+
+    .footer-content img {
+        width: 20vw;
+        height: 12vh;
+    }
+
+    .category>li {
+        font-size: 12px;
+    }
+
+    .footer-title {
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .info {
+        font-size: 15px;
+        margin-top: 50px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .social-link-info {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .redes-sociais {
+        margin-top: 100px;
+    }
+
+    .footer-credit {
+        font-size: 20px;
+        padding: 10px;
+        width: 100%;
+    }
+}
